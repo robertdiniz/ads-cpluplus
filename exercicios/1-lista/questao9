@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int eleitores, votosBrancos, nulos, validos;
+	float porcentBrancos, porcentNulos, porcentValidos;
+	
+	cout << "Quantos eleitores teve no município? " << endl;
+	cin >> eleitores;
+	
+	cout << "Quantos votos brancos teve? " << endl;
+	cin >> votosBrancos;
+	
+	cout << "Quantos votos válidos teve? " << endl;
+	cin >> validos;
+	
+	porcentBrancos = eleitores/100 * votosBrancos;
+	porcentNulos = eleitores/100 * nulos;
+	porcentValidos = eleitores/100 * porcentvalidos;
+	
+	return 0;
+}
