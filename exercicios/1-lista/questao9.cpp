@@ -18,13 +18,13 @@ int main() {
   	cout << "Quantos votos nulos teve? " << endl;
 	cin >> nulos;
 	
-  porcentBrancos = (votosBrancos * eleitores) / 100;
-  porcentNulos = (nulos * eleitores) / 100;
-  porcentValidos = (validos * eleitores) / 100;
+  	porcentBrancos = (votosBrancos * eleitores) / 100;
+  	porcentNulos = (nulos * eleitores) / 100;
+  	porcentValidos = (validos * eleitores) / 100;
 
-  cout << "Para o total de eleitores: \n";
-  cout << eleitores << " eleitores," << porcentBrancos << "% são brancos. \n";
-  cout << eleitores << " eleitores," << porcentNulos << "% são nulos. \n";
-  cout << eleitores << " eleitores," << porcentValidos << "% são validos.";
+  	cout << "Para o total de eleitores: \n";
+  	cout << eleitores << " eleitores," << porcentBrancos << "% são brancos. \n";
+  	cout << eleitores << " eleitores," << porcentNulos << "% são nulos. \n";
+  	cout << eleitores << " eleitores," << porcentValidos << "% são validos.";
 	return 0;
 }
