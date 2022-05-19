@@ -15,8 +15,8 @@ int main() {
 	cout << "Quantos votos válidos teve? " << endl;
 	cin >> validos;
 
-  cout << "Quantos votos nulos teve? " << endl;
-	cin >> validos;
+  	cout << "Quantos votos nulos teve? " << endl;
+	cin >> nulos;
 	
   porcentBrancos = (votosBrancos * eleitores) / 100;
   porcentNulos = (nulos * eleitores) / 100;
