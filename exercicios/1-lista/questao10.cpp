@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-  
-  /* Escreva um algoritmo para ler o salário mensal atual de um 
-  funcionário e o percentual de reajuste.
-  Calcular e escrever o valor do novo salário. */ 
 
-  float salario, percentual, resultado;
+  /* Escreva um algoritmo para ler o salário mensal atual de um 
+    funcionário e o percentual de reajuste.
+    Calcular e escrever o valor do novo salário. */ 
+
+  float salario, percentual, salarioAtual;
 
   cout << "Informe o seu salário atual: " << endl;
   cin >> salario;
@@ -15,9 +15,9 @@ int main() {
   cout << "Informe a porcentagem do reajuste salarial: " << endl;
   cin >> percentual;
 
-  resultado = salario * (percentual / 100);
+  salarioAtual = salario * (percentual / 100);
 
-  cout << "Salário com reajuste: " << resultado << endl;
+  cout << "Novo salário com reajuste: R$" << salarioAtual + salario << endl;
   
   return 0;
 }
